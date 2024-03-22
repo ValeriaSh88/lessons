@@ -1,0 +1,52 @@
+@import url('reset.css');
+.wrapper {
+}
+.title {
+    color: blue;
+}
+.header__image {
+}
+.header__list {
+}
+.list__item {
+    color: blueviolet;
+}
+.other__list .pink-text {
+    color: rgb(180, 125, 187);
+}
+p {
+    color: rgb(140, 102, 102);
+}
+#climate {
+    color: rgb(115, 0, 223);
+}
+#population {
+    color: rgb(52, 98, 98);
+}
+#religion {
+    color: rgb(184, 114, 21);
+}
+#kitchen {
+    color: rgb(11, 184, 184);
+}
+.about__kitchen > a{
+    color: black;
+}
+#attractions {
+    color: rgb(60, 206, 157);
+}
+h4 {
+    color: rgb(204, 28, 28);
+}
+[class*="soc"] {
+    color: darkblue;
+}
+.footer__list.list {
+    color: coral;
+}
+.footer_links {
+}
+.footer__list {
+}
+.list {
+}
