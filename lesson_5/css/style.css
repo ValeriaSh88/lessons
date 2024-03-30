@@ -1,0 +1,167 @@
+
+/* ========================= ШРИФТИ =============================== */
+
+/* Google Fonts (Plugin) */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,500,300italic&display=swap");
+
+/* Локальне підключення шрифтів */
+@import url('fonts.css');
+
+/* Обнулення стилів*/
+@import url('reset.css');
+
+body {
+    font-family: 'Proxima Nova ExCn';
+    color: #000;
+    font-size: 16px;
+}
+.wrapper {
+}
+/* -------------------------------ПЕРШИЙ БЛОК --------------------------------------------------------*/
+.container {
+width: 100%;
+background-color:#f8f8f8;
+}
+.first__block{
+max-width: 1070px;
+margin: 0 auto;
+overflow: hidden;
+}
+.room__title {
+    text-align: center;
+    max-height: 48px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%; /* 48/40 */
+    padding: 50px 0px 60px 0px;
+}
+.room__image {
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.room__text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #2b2929;
+    line-height: 150%; /* 30/20 */
+    padding-bottom: 40px;
+}
+.room__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%; /* 28/20 */
+    padding-bottom: 30px;
+}
+.room__list {
+    padding-bottom: 20px;
+}
+.room__item {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2b2929;
+    line-height: 166.666667%;
+    padding: 0px 0px 20px 20px;
+}
+/* -------------------------------ДРУГИЙ БЛОК --------------------------------------------------------*/
+.container__krovato {
+    width: 100%;
+    background-color:#f8f8f8;
+}
+.krovato {
+    display: block;
+    max-width: 1290px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.krovato__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%; /* 48/40 */
+    padding: 40px 0px;
+}
+.krovato__container {
+    text-align: center; 
+    padding-bottom: 50px;
+}
+.item {
+    margin-left: -5px;
+    margin-right: -5px;
+    display: inline-block; 
+    width: 25%; 
+    vertical-align: top;
+ }
+.item__content {
+    padding: 0 5px;
+    vertical-align: top;
+}
+.item__title {
+    max-width: 300px;
+    padding: 20px 0px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 130.769231%; /* 34/26 */
+}
+.item__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 166.666667%; /* 30/18 */
+
+}
+
+/* -------------------------------ТРЕТІЙ БЛОК --------------------------------------------------------*/
+
+.container__follow {
+    width: 100%;
+    background-color:#dddddd;
+}
+.follow {
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.follow__title {
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 40px 0px;
+}
+
+.follow__container {
+    text-align: center; 
+    font-size: 0;
+}
+.items {
+    display: inline-block;
+    width: 200px; 
+    margin: 0 10px 20px;
+    vertical-align: top; 
+    
+}
+.item__follow {
+    margin: 20px;
+}
+
+.social-links {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 166.666667%; /* 30/18 */;
+    text-align: center;
+}
+.footer_links {
+}
+.footer__list {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    line-height: 138.888889%; /* 25/18 */
+    text-align: center;
+}
+.inline {
+    width: 1290px;
+    height: 80px;
+    padding: 0px 30px;
+}
