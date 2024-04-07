@@ -1,0 +1,210 @@
+
+/* ========================= ШРИФТИ =============================== */
+
+/* Google Fonts (Plugin) */
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular&display=swap");
+
+/* Локальне підключення шрифтів */
+@import url('fonts.css');
+
+/* Обнулення стилів*/
+@import url('reset.css');
+
+body {
+}
+.header__title {
+    margin: 30px 0px;
+    font-family:'Quicksand';
+    font-weight: 700;
+    font-size: 45px;
+    opacity: 0.5;
+    font-size: 60px;
+    text-align: center;
+}
+.main__title{
+}
+
+.wrapper {
+}
+/* -------------------------------ПЕРШИЙ БЛОК --------------------------------------------------------*/
+.container {
+width: 100%;
+background-color:#f8f8f8;
+border: 3px dashed rgb(175, 218, 175);
+}
+.first__block{
+font-family: 'Proxima Nova ExCn';
+max-width: 1070px;
+margin: 0 auto;
+overflow: hidden;
+padding-top: 30px;
+}
+.room__title {
+    text-align: center;
+    max-height: 48px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%; /* 48/40 */
+    margin-bottom: 10px;
+}
+.room__image {
+    max-width: 100%;
+    margin-bottom: 40px;
+   box-shadow: 3px 10px 18px 5px rgb(239, 239, 164);
+}
+.room__text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #2b2929;
+    line-height: 150%; /* 30/20 */
+    margin-bottom: 40px;
+}
+.room__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%; /* 28/20 */
+    margin-bottom: 30px;
+}
+.room__list {
+}
+.room__item {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2b2929;
+    line-height: 166.666667%;
+    margin: 0px 0px 20px 0px;
+    background: url(../img/room/Vector.png) 0 0 / 26px no-repeat;
+    padding-left: 40px;
+    min-height: 27px;
+
+}
+/* -------------------------------ДРУГИЙ БЛОК --------------------------------------------------------*/
+.education {
+    background-image: url('../img/explore/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    outline: 4px dotted rgb(212, 173, 204);
+}
+.education__container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.container__education {
+    font-family: 'Quicksand';
+    color: #fff;
+    display: inline-block;
+    max-width: 600px;
+    padding: 135px 0px;
+}
+.education__title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.education__text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%; /* 32/20 */
+    margin-bottom: 24px;
+}
+.education__button {
+    padding: 12px 30px;
+    width: 217px;
+    height: 48px;
+    text-align: center;
+   color:#0d1216; 
+   font-size: 16px;
+   font-family: 'Quicksand';
+   font-weight: 700;
+   line-height: 156.25%; /* 25/16 */
+   border-radius: 8px 8px 8px 8px;
+   background: #fff url('../img/explore/label.png') 3px 50%/ 24px no-repeat;
+   min-height: 24px;
+
+}
+.education__image {
+    max-width: 547px;
+    max-height: 530px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 124px;
+}
+
+/* -------------------------------ТРЕТІЙ БЛОК --------------------------------------------------------*/
+
+.collections {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    margin-bottom: 100px;
+    background: url(../img/collections/flower2.png) no-repeat 0 85% / 133px, url('../img/collections/flower1.png') no-repeat 100% 55% / 195px
+}
+.container__collections {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.text__collection {
+    display: inline-block;
+    max-width: 690px;
+    padding: 200px 0 100px 0;
+    margin-right: 98px;
+}
+.collection__title {
+  font-size: 74px;
+  font-weight: 300;
+  line-height: 74.324324%; /* 55/74 */
+  margin-bottom: 52px;
+
+}
+.collection__text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 183.333333%; /* 55/30 */
+    margin-bottom: 66px;
+}
+.collection__button {
+    width: 223px;
+    height: 72px;
+    font-size: 29px;
+    font-weight: 400;
+    color: #fff;
+    padding: 19px 26px 19px 64px;
+    background: #000 url('../img/collections/icon.png') no-repeat 13% 19px/ 24px;
+}
+.photo__collection {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 442px;
+    border-radius: 160px 0px;  
+    border: 2px solid #000;
+    margin-top: 100px;
+}
+.main__photo {
+}
+.main__photo img{
+    width: 100%;
+    margin: -20px 18px 20px -18px;
+    border-radius: 160px 0;
+}
+
+/* -------------------------------ФУТЕР --------------------------------------------------------*/
+
+.social-links {
+    font-family:'Quicksand'; 
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 166.666667%; /* 30/18 */;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.footer_links { 
+}
+.footer__list {
+    font-family:'Quicksand';
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    line-height: 138.888889%; /* 25/18 */
+    text-align: center;
+}
