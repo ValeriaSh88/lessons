@@ -1,0 +1,462 @@
+
+/* ========================= ШРИФТИ =============================== */
+
+/* Google Fonts (Plugin) */
+@import url("https://fonts.googleapis.com/css?family=Exo:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+
+/* Локальне підключення шрифтів */
+@import url('fonts.css');
+
+/* Обнулення стилів*/
+@import url('reset.css');
+
+body {
+}
+
+.header__title {
+    font-family:'Proxima Nova ExCn';
+    margin: 30px 0px;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+}
+.main__title{
+}
+
+.wrapper {
+}
+/* -------------------------------ПЕРШИЙ БЛОК --------------------------------------------------------*/
+.container {
+width: 100%;
+background-color:#f8f8f8;
+margin-bottom: 50px;
+}
+.first__block {
+font-family: 'Proxima Nova ExCn';
+max-width: 1070px;
+margin: 0 auto;
+overflow: hidden;
+padding-top: 40px;
+}
+.first__block > * {
+    margin-bottom: 20px;
+}
+
+.room__title {
+    text-align: center;
+    max-height: 48px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%; /* 48/40 */
+    margin-bottom: 15px;
+}
+
+.room__image {
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.room__text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #2b2929;
+    line-height: 150%; /* 30/20 */
+}
+
+.room__text p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.block {
+    padding: 0px 20px;
+}
+.room__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%; /* 28/20 */
+    margin-bottom: 30px;
+}
+.room__list li:not(:last-child) {
+    margin-bottom: 20px;
+}
+.room__item {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2b2929;
+    line-height: 166.666667%;
+    padding-left: 47px;
+    margin: 0px 0px 20px 0px;
+    min-height: 27px;
+}
+.room__list li:last-of-type {
+	text-transform: capitalize;
+}
+.room__list li::before {
+    content: "";
+    display: inline-block;
+    background: url(../img/1/Vector.png) 0 0 / 100% no-repeat;
+    width: 26px;
+    height: 26px;
+    margin: 0px 15px 0px -47px;
+    vertical-align: middle;
+}
+
+.first__block > *:last-child {
+	margin-bottom: 0px;
+}
+.room__link {
+}
+.room__link:hover{
+    text-decoration: underline;
+}
+.room__link:visited {
+    color: rgb(90, 90, 233);
+}
+
+/* -------------------------------ДРУГИЙ БЛОК --------------------------------------------------------*/
+
+.about {
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+    background: url(../img/2/About\ section.png) 0 0 / cover no-repeat;
+    padding: 120px 0px;
+}
+.about__container {
+    max-width: 1515px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 60px;
+
+}
+.about__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 116.666667%; /* 70/60 */
+}
+.about__title::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 30%;
+    margin: 20px auto;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(66,255,0,1) 50%, rgba(36,0,255,1) 100%);
+}
+.text__about {
+    max-width: 992px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2.22; /* 40/18 */
+   text-transform: capitalize;
+   margin-bottom: 85px;
+}
+.about__list {
+    font-family: 'Orbitron';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.25; /* 25/20 */
+    text-transform: capitalize;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.about__item {
+    display: inline-block;
+}
+.about__item:not(:last-child) {
+    margin-right: 60px;
+}
+.about__item::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 60px;
+    vertical-align: middle;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(66,255,0,1) 50%, rgba(36,0,255,1) 100%);
+}
+.about__item:hover {
+    text-decoration: underline;
+}
+
+.about__contacts {
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+    background-color: #000001;
+    padding: 100px 0px 115px 0px;
+    margin-bottom: 20px;
+}
+.contacts__container {
+    max-width: 1515px;
+    margin-left: 120px;
+}
+.contacts__item {
+    display: inline-block;
+}
+.contacts__item:not(:last-child){
+    margin-right: 80px;
+}
+.contacts__items {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%; /* 20/20 */
+}
+.contacts__item__1 {
+}
+.contacts__item__1::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 22px;
+    vertical-align: middle;
+    background: url(../img/2/icons/phone.svg) 0 0 / contain no-repeat;
+}
+.contacts__item__2 {
+}
+.contacts__item__2::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 22px;
+    vertical-align: middle;
+    background: url(../img/2/icons/location.svg) 0 0 / contain no-repeat;
+}
+.contacts__item__3 {
+}
+
+.contacts__item__3::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 22px;
+    vertical-align: middle;
+    background: url(../img/2/icons/mail.svg) 0 0 / contain no-repeat;
+}
+
+
+
+/* -------------------------------ТРЕТІЙ БЛОК --------------------------------------------------------*/
+.game__block {
+    margin-bottom: 50px;
+}
+.game__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: darkgray;
+    padding: 40px 0px;
+}
+.game__title {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.game__start {
+}
+
+.game__start > div {
+    background-color: rgb(185, 223, 15);
+}
+.line:hover,
+.line:hover + .line {
+  visibility: visible; 
+}
+.first__line {
+    width: 50px;
+    height: 60px;
+}
+.second__line {
+    width: 950px;
+    height: 55px;
+    visibility: hidden;
+}
+
+.third__line {
+    margin-left: 920px;
+    height: 60px;
+    width: 30px;
+    visibility: hidden;
+}
+.fourth__line {
+    height: 40px;
+    width: 700px;
+    margin-left: 250px;
+    visibility: hidden;
+}
+.fifth__line {
+    width: 30px;
+    height: 150px;
+    margin-left: 250px;
+    visibility: hidden;
+}
+.sixth__line {
+    height: 30px;
+    width: 700px;
+    margin-left: 250px;
+    visibility: hidden;
+}
+.seventh_line {
+    height: 100px;
+    width: 30px;
+    margin-left: 920px;
+    visibility: hidden;
+}
+.eighth_line {
+    width: 880px;
+    height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 70px;
+    visibility: hidden;
+}
+
+/* -------------------------------ЧЕТВЕРТИЙ БЛОК(ПРАКТИКА) --------------------------------------------------------*/
+
+.practice__block {
+    font-family: 'Exo', sans-serif;
+    padding: 30px 0px;
+    background-color: rgb(248, 248, 215);
+    margin-bottom: 50px;
+}
+
+.practice__container {
+max-width: 1070px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.practice__title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.practice__list {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+/*Відступ всім, окрім останнього*/
+.practice__list li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+/*Перший елемент*/
+.practice__list li:first-child{
+    color: darkgreen;
+    font-weight: 700;
+}
+
+/*Лише 6-тий елемент*/
+.practice__list li:nth-child(6) {
+    color: darkorchid;
+    font-style: oblique;
+}
+
+/*Всім парним*/
+.practice__list li:nth-child(even) {
+	background-color: #faff72;
+}
+
+/*Всім непарним*/
+.practice__list li:nth-child(odd) {
+	background-color: #dee2e1;
+}
+
+/*Останньому елементу*/
+.practice__list li:last-child{
+    text-decoration: underline;
+}
+
+/*Кожен другий починаючи з третього*/
+.practice__list li:nth-child(2n + 3) {
+	font-weight: 700;
+    text-transform: capitalize;
+}
+
+.practice__item {
+}
+.practice__item::before{
+content: "";
+vertical-align: middle;
+background: url("../img/practice/call.svg") 0 0 / 100% no-repeat;
+width: 20px;
+height: 20px;
+margin-right: 10px;
+}
+.practice__item:hover::before {
+	opacity: 0.5;
+    background-color: rgb(231, 44, 178);
+}
+
+/*КНОПКА*/
+.practice__button {
+    background-color: gold;
+    padding: 15px 25px;
+    font-size: 20px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+.practice__button span{
+    display: inline-block;
+    background: url(../img/practice/call.svg) 0 5px no-repeat;
+    padding-left: 30px;
+}
+.practice__button:active{
+    background-color: rgb(153, 237, 252);
+}
+.practice__button:focus-visible{
+    border: 2px dotted  blueviolet;
+}
+
+.practice__text {
+    font-size: 35px;
+}
+
+/*Відступ всім, окрім останнього*/
+.practice__text p:not(:last-child){
+    margin-bottom: 25px;
+}
+
+.practice__text p:first-of-type {
+	font-style: oblique;
+}
+.practice__text:has(span) {
+    color: rgb(227, 8, 81);
+    font-size: 20px;
+}
+/* -------------------------------ФУТЕР --------------------------------------------------------*/
+
+.social-links {
+    font-family:'Exo', sans-serif; 
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 166.666667%; /* 30/18 */;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footer_links { 
+}
+.footer_links li:not(:last-child) { 
+    margin-bottom: 10px;
+}
+.footer__list {
+    font-family:'Exo', sans-serif; ;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 138.888889%; /* 25/18 */
+    text-align: center;
+}
+.footer__list:hover{
+   color: #1032ae;
+}
