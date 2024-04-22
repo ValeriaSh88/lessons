@@ -1,0 +1,19 @@
+
+/* ========================= ШРИФТИ =============================== */
+
+/* Google Fonts (Plugin) */
+@import url("https://fonts.googleapis.com/css?family=Quicksand:regular,500,600&display=swap");
+
+
+/* Обнулення стилів*/
+@import url('reset.css');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    background-color: rgb(238, 233, 239);
+}
+
+
